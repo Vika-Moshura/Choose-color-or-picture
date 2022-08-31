@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color,
+        .picture {
+            font-size: 40px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .blocks {
+            margin: 20px auto;
+            display: none;
+            width: 300px;
+            height: 300px;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        .block {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+        .pic0 {
+            background-image: url(images/0.png);
+            background-size: cover;
+        }
+
+        .pic1 {
+            background-image: url(images/1.png);
+            background-size: cover;
+        }
+
+        .pic2 {
+            background-image: url(images/2.jpg);
+            background-size: cover;
+        }
+
+        .pic3 {
+            background-image: url(images/3.jpg);
+            background-size: cover;
+        }
+
+        .pic4 {
+            background-image: url(images/4.jpg);
+            background-size: cover;
+        }
+
+        .pic5 {
+            background-image: url(images/5.jpg);
+            background-size: cover;
+        }
+
+        .pic6 {
+            background-image: url(images/6.jpg);
+            background-size: cover;
+        }
+
+        .pic7 {
+            background-image: url(images/7.jpg);
+            background-size: cover;
+        }
+
+        .pic8 {
+            background-image: url(images/8.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="color">Colors</p>
+    <p class="picture">Pictures</p>
+    <table class="blocks">
+        <tr>
+            <th onclick="back()" class="block" style="background-color: aqua;"></th>
+            <th onclick="back()" class="block" style="background-color: brown;"></th>
+            <th onclick="back()" class="block" style="background-color: green;"></th>
+        </tr>
+        <tr>
+            <th onclick="back()" class="block" style="background-color: lightgreen;"></th>
+            <th onclick="back()" class="block" style="background-color: gray;"></th>
+            <th onclick="back()" class="block" style="background-color: red;"></th>
+        </tr>
+        <tr>
+            <th onclick="back()" class="block" style="background-color: blue;"></th>
+            <th onclick="back()" class="block" style="background-color: violet;"></th>
+            <th onclick="back()" class="block" style="background-color: yellow;"></th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
